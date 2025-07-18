@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+nav{
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+ .logo a{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+ul{
+    display: inline-flex;
+  
+    
+}
+li{
+    list-style: none;
+    padding: 15px;
+    
+}
+li a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+li a:hover{
+    background-color: #00abf0;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 230px 145px;
+   
+}
+.homecontent{
+    max-width: 600px;
+    margin: 30px 0;
+    padding: 20px;
+   
+}
+.homecontent h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.homecontent h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #00abf0;
+}
+.homecontent p{
+    font-size: 19px;
+}
+.btn-box{
+    padding-top: 20px;
+}
+.btn-box a{
+   padding: 8px 12px;
+   background-color: #081b29;
+   border-radius: 6px;
+   border: none;
+   border: 3px solid white;
+}
+.btn-box a:first-child{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+.btn-box a:hover{
+    background-color: #00abf0;
+}
+body{
+    background-image: url(images/pic1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
