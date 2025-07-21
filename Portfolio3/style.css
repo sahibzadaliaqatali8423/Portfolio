@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    color: white;
+    background-color: #1f1f1f;
+}
+nav{
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.menu .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 12px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: white;
+    color: red;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 12% 0;
+}
+.home-details h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.home-details h1{
+    font-size: 60px;
+    font-weight: 600;
+   
+}
+.home-details h2{
+    font-size: 35px;
+    font-size: bold;
+    margin-top: 8px;
+}
+.home-details h2 span{
+    color: crimson;
+    margin-top: 8px;
+    padding: 3px 12px;
+    border-radius: 5px;
+}
+.home-details h2 span:hover{
+    background-color: crimson;
+    color: white;
+}
+ span{
+    color: crimson;
+}
+.home-details p{
+    font-size: 21px;
+    margin-top: 8px;
+}
+.btn{
+    margin-top: 18px;
+    display: flex;
+    gap: 20px;
+}
+.btn a{
+    color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 4px;
+   border: 3px solid white;
+}
+.btn a:hover{
+    background-color: crimson;
+    color: white;
+}
+
